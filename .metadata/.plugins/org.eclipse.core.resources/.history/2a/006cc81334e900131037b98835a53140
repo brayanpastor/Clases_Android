@@ -1,0 +1,14 @@
+package basedatos;
+
+import android.content.Context;
+import android.database.sqlite.SQLiteOpenHelper;
+
+public class conexion {
+
+	private static class BDHelper extends SQLiteOpenHelper {
+		public BDHelper(Context context) {
+			super(context, N_BD, null, VERSION_BD);
+			// TODO Auto-generated constructor stub
+		}
+	}
+}

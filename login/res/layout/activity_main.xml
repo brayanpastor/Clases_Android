@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.brayanpastor.login.MainActivity$PlaceholderFragment" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/action_settings"
+       
+        android:src="@drawable/login"
+        />
+    
+    <LinearLayout
+         android:id="@+id/liner1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        
+        <EditText 
+            android:id="@+id/txt_usuario"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            
+            android:layout_margin="20dp"
+            android:hint="@string/hint_usuario">
+            
+         <requestFocus/>   
+        </EditText>       
+            
+          <EditText 
+            android:id="@+id/txt_clave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_margin="20dp"
+            android:hint="@string/hint_clave"
+            android:inputType="textPassword"
+      />
+
+          <Button
+              android:id="@+id/button1"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="20dp"
+              android:text="@string/boton_login"
+              android:onClick="validar_acceso"
+              android:background="@android:color/holo_blue_dark"
+               />
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

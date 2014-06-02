@@ -1,0 +1,7 @@
+ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.compare.contentmergeviewer.TextMergeViewer
+ColorsAndFontsPreferencePage.selectedElement=CCONTENT_ASSIST_FOREGROUND_COLOR
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Consolas|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+org.eclipse.jdt.ui.editors.textfont=1|Consolas|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+org.eclipse.jface.textfont=1|Consolas|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|49|Consolas;
+org.eclipse.ui.workbench.texteditor.blockSelectionModeFont=1|Courier New|14.25|0|WINDOWS|1|-19|0|0|0|400|0|0|0|0|3|2|1|49|Courier New;
