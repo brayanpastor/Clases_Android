@@ -1,0 +1,7 @@
+package com.example.mejor_listado;
+
+import android.app.Fragment;
+
+public class NameDetailFragment extends Fragment {
+
+}
